@@ -33,7 +33,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-          name: IPTV-jiahq4639
+          name: IPTV-API
           path: dist
 
       - name: Get version from version.json
